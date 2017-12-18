@@ -6,23 +6,23 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE() #Luffy
-cl.login(token="EnKYkfANySBm2SkFRXBa.qM4RfA71y8Z1y2S2GLdQAG.qX912anrMkY73TKRFmbfhGpLEBqQ9+u/Sg7AIe6WtkU=")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(token="EnHAAesV6MgLp00h7a94.es8hyE+hUxj3aGoFVGl1Da.G/KCY9rNBRK+8x1yAXVnzBfYZI4A9rzm1NtQ6Vf+pqA=")
+ki.login(qr=True)
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(token="EnNx52pzAsBjX0iYvDid.q54JaLG084oPKmYLdpYwpq.LgYhmFzFaXnHbvwqiZIYZM4RZ0AtQmM9K/UkZ1nQMyo=")
+kk.login(qr=True)
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(token="EnfxQ33Rbi05eA204Lee.FZsrnSkZffEi3s/ou5k+3G.XjBhhzaFuVu9WBk+EUhOCFQKylDjT5ohR/DTejklpp0=")
+kc.login(qr=True)
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(token="EnjgWvYC2un4NA72GX10.9vtjE887Sod39Kibjxxfia.6HYzBWN6QajavSveKztpxto0yrm28tB5KJX+AUNEWi8=")
+ks.login(qr=True)
 ks.loginResult()
 
 print "login success plak"
@@ -74,7 +74,7 @@ Cmid = kc.getProfile().mid #Ussop
 Dmid = ks.getProfile().mid #Chooper
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid]
-admin=["ub3db3cc8a5db36da5186eb52d14bfaa9","u4f8709f6222b794c1f03e7e04ea20277","u531f68025e1b287f71b64588a8b11875","u4d0c7094d063ef17a32a2e0872f9901a","u6fe16c90ea1b71404b429593539bc7b3","uef8cf0ea563c34d23f986fd59fa11847","ua4829d9a978ec3833141b1d72256b7e7","ud13d496b0970c090ed4be6fac855985f"]
+admin=["ub3db3cc8a5db36da5186eb52d14bfaa9"]
 owner=["ub3db3cc8a5db36da5186eb52d14bfaa9"]
 whitelist=["ub3db3cc8a5db36da5186eb52d14bfaa9"]
 wait = {
